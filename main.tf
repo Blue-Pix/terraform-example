@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 locals {
-  app_version = "1.0.1"
+  app_version = "1.0.3"
 }
 
 resource "aws_s3_bucket" "example" {
